@@ -1,0 +1,1 @@
+"""Тесты keypress-tracker."""

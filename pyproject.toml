@@ -1,0 +1,23 @@
+[project]
+name = "keypress-tracker"
+version = "0.1.0"
+description = "Локальный трекер нажатий клавиш: оверлей-счётчик и heatmap клавиатуры"
+readme = "README.md"
+authors = [
+    { name = "murfixtap", email = "murfixtap@gmail.com" }
+]
+requires-python = ">=3.15"
+dependencies = []
+
+[project.scripts]
+keypress-tracker = "keypress_tracker:main"
+
+[project.gui-scripts]
+keypress-tracker-gui = "keypress_tracker:main"
+
+[tool.uv]
+package = true
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
